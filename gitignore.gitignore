@@ -1,0 +1,17 @@
+# Build output
+/target/
+*.class
+
+# IDE/Eclipse files
+.project
+.classpath
+.settings/
+
+# Test reports
+/surefire-reports/
+/cucumber.html
+/cucumber.json
+
+# OS junk
+.DS_Store
+Thumbs.db
