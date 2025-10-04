@@ -37,6 +37,7 @@ public class ErrorValidationsTest extends BaseTest {
 		CartPage cartPage = productCatalogue.goToCartPage();
 		boolean match = cartPage.verifyProductDisplay(Product);
 		Assert.assertTrue(match);
+		System.out.println(match);
 	}
 
 }
