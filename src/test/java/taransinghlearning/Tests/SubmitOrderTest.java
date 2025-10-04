@@ -53,6 +53,7 @@ public class SubmitOrderTest extends BaseTest {
 		String confirmationMsg = confirmationPage.getConfirmationMsg();
 		Assert.assertEquals(confirmationMsg, "THANKYOU FOR THE ORDER.");
 		System.out.println(confirmationMsg);
+		System.out.println("Modified in git demo Y");
 //		Thread.sleep(2000);		
 		driver.quit();
 
