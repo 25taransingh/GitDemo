@@ -23,6 +23,7 @@ public class ErrorValidationsTest extends BaseTest {
 		landingPage.loginApplication("writetotaransingh@gmail.com", "Taran@@123");
 		String errorMessage = landingPage.getErrorMessege();
 		Assert.assertEquals(errorMessage, "Incorrect email or password.");
+		System.out.println("SRK");
 
 	}
 
@@ -38,6 +39,7 @@ public class ErrorValidationsTest extends BaseTest {
 		boolean match = cartPage.verifyProductDisplay(Product);
 		Assert.assertTrue(match);
 		System.out.println(match);
+		System.out.println("John");
 	}
 
 }

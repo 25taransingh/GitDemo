@@ -53,11 +53,8 @@ public class SubmitOrderTest extends BaseTest {
 		String confirmationMsg = confirmationPage.getConfirmationMsg();
 		Assert.assertEquals(confirmationMsg, "THANKYOU FOR THE ORDER.");
 		System.out.println(confirmationMsg);
-		System.out.println("Modified in GitDemoY3");
-		System.out.println("Modified in GitDemoY4");
-		System.out.println("Modified in GitDemoY5");
-		System.out.println("Modified in GitDemoY6");
-		System.out.println("Modified in GitDemoY7");
+		System.out.println("taran");
+		
 //		Thread.sleep(2000);		
 		driver.quit();
 
@@ -71,6 +68,7 @@ public class SubmitOrderTest extends BaseTest {
 		OrderPage orderpage = productCatalogue.goToOrderPage();
 		boolean match = orderpage.verifyOrderDisplay(Product);
 		Assert.assertTrue(match);
+		System.out.println("kanchan");
 
 	}
 //	---------------------------------------------------------------
