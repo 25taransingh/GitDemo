@@ -40,6 +40,8 @@ public class ErrorValidationsTest extends BaseTest {
 		Assert.assertTrue(match);
 		System.out.println(match);
 		System.out.println("John");
+		System.out.println("benny");
+		System.out.println("bittu");
 	}
 
 }
